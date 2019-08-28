@@ -91,7 +91,7 @@ public class A1Jedi {
             if (each.getCountCustomers() == 0) {
                 System.out.println("No customers bought " + each.getItemName());
             } else {
-                System.out.println(each.getCountCustomers() + " Customers bought " +
+                System.out.println(each.getCountCustomers() + " customers bought " +
                         each.getCountTotalQuantity() + " " + each.getItemName());
             }
         }
